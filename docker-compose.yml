@@ -19,7 +19,7 @@ services:
       - TM_UID=1000
       - TM_GID=1000
       - PASSWORD=rewandchew
-      - SET_PERMISSIONS=false
+      - SET_PERMISSIONS="true"
       - SHARE_NAME=TimeMachine
       - SMB_INHERIT_PERMISSIONS=no
       - SMB_NFS_ACES=yes
