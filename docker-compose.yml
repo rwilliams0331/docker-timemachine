@@ -1,6 +1,7 @@
 version: "3.7"
 services:
   timemachine:
+    hostname: ee-timecapsule
     networks:
       macvlan_network:
         ipv4_address: 100.64.0.4
